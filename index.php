@@ -162,13 +162,12 @@ echo("<br>");
 
 }
 
-
-
+echo "<pre>";
 $n=10;
 for($i=0;$i<=$n;$i++)
 {
 for($j=$i;$j<= $n;$j++){
-    echo ("-");
+    echo (" ");
 }
 for($j=1;$j< $i;$j++){
     echo "*";
@@ -177,12 +176,13 @@ for($j=1;$j<=$i;$j++){
     echo "*";
 }
 for($j=$i;$j<= $n;$j++){
-    echo "-";
+    echo " ";
 }
 echo "<br>";{
 }
 
 }
+echo "</pre>";
    ?> 
 </body>
 </html>
