@@ -161,12 +161,26 @@ echo("<br>");
 
 
 }
-echo("<br>");
-for($i=0;$i<7;$i++){
-    for($j=1;$j< $i;$j++){
-    echo("z");
+
+
+
+$n=10;
+for($i=0;$i<=$n;$i++)
+{
+for($j=$i;$j<= $n;$j++){
+    echo "-";
 }
-echo("<br>");
+for($j=1;$j< $i;$j++){
+    echo "*";
+}
+for($j=1;$j<=$i;$j++){
+    echo "*";
+}
+for($j=$i;$j<= $n;$j++){
+    echo "-";
+}
+echo "<br>";{
+}
 
 }
    ?> 
